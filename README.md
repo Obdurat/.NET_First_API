@@ -24,7 +24,7 @@ But don't you worry that i allready have a seeder running so you can still try i
 
 #### Returns all Products
 
-```http
+```
   GET /product
 ```
 
@@ -34,7 +34,7 @@ But don't you worry that i allready have a seeder running so you can still try i
 
 #### Returns one Product
 
-```http
+```
   GET /product/${code}
 ```
 
@@ -44,7 +44,7 @@ But don't you worry that i allready have a seeder running so you can still try i
 
 #### Create a new Product
 
-```http
+```
   POST /product
 ```
 
@@ -54,7 +54,7 @@ But don't you worry that i allready have a seeder running so you can still try i
 
 #### Updates a Product
 
-```http
+```
   PUT /product
 ```
 
@@ -65,7 +65,7 @@ But don't you worry that i allready have a seeder running so you can still try i
 
 #### Deletes a Product
 
-```http
+```
   DELETE /product/{code}
 ```
 
@@ -89,7 +89,7 @@ Enter the directory
 
 Install all dependencies
 
-```cs
+```xml
   <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
