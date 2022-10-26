@@ -10,6 +10,13 @@ But don't you worry that i allready have a seeder running so you can still try i
 
 ## API Documentation
 
+### You can visualize all Documentation from Swagger when you start the project
+
+```
+  your-host/swagger
+```
+
+
 #### Product
 
 ```csharp
