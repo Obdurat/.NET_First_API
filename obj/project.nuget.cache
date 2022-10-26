@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "4p4Whnmb0WMF6ObPvs+SJ3KGSDe/7cJKDEDMQsbG438wEOGwpbBnjfYPmTt9lLAckQ4+Qx0phbK3eUBTzm/s5g==",
+  "dgSpecHash": "h2TnugEpwta8/3vQ+uJ70Cqr5e4AEItK4K7qOFwf6Zt71KlZZKJ/4HxSaOG9uK7pawEQUgYFYhwymCeaeNvzZQ==",
   "success": true,
   "projectFilePath": "/home/anderson/Documentos/Projetos/C#_.NET/Udemy/First_API/First_API.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/anderson/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/home/anderson/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/anderson/.nuget/packages/swashbuckle.aspnetcore/6.1.4/swashbuckle.aspnetcore.6.1.4.nupkg.sha512",
+    "/home/anderson/.nuget/packages/swashbuckle.aspnetcore.swagger/6.1.4/swashbuckle.aspnetcore.swagger.6.1.4.nupkg.sha512",
+    "/home/anderson/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.1.4/swashbuckle.aspnetcore.swaggergen.6.1.4.nupkg.sha512",
+    "/home/anderson/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.1.4/swashbuckle.aspnetcore.swaggerui.6.1.4.nupkg.sha512"
+  ],
   "logs": []
 }

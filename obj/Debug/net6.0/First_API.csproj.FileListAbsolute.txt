@@ -19,3 +19,9 @@
 /home/anderson/Documentos/Projetos/C#_.NET/Udemy/First_API/obj/Debug/net6.0/ref/First_API.dll
 /home/anderson/Documentos/Projetos/C#_.NET/Udemy/First_API/obj/Debug/net6.0/First_API.pdb
 /home/anderson/Documentos/Projetos/C#_.NET/Udemy/First_API/obj/Debug/net6.0/First_API.genruntimeconfig.cache
+/home/anderson/Documentos/Projetos/C#_.NET/Udemy/First_API/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/home/anderson/Documentos/Projetos/C#_.NET/Udemy/First_API/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/anderson/Documentos/Projetos/C#_.NET/Udemy/First_API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/anderson/Documentos/Projetos/C#_.NET/Udemy/First_API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/anderson/Documentos/Projetos/C#_.NET/Udemy/First_API/obj/Debug/net6.0/First_API.MvcApplicationPartsAssemblyInfo.cs
+/home/anderson/Documentos/Projetos/C#_.NET/Udemy/First_API/obj/Debug/net6.0/First_API.csproj.CopyComplete

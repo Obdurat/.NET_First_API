@@ -1,10 +1,16 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.OpenApi.Models;
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(c => c.SwaggerDoc("v1", new OpenApiInfo {Title = "Minimal CRUD API .NET", Description = "Minimal CRUD API"}));
+
 var app = builder.Build();
 var config = app.Configuration;
 ProductRepository.Init(config);
 
-app.Run();
+app.UseSwagger();
+app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Minimal CRUD API"));
 
 app.MapGet("/product", () => {
     var products = ProductRepository.GetAll();
@@ -46,6 +52,8 @@ app.MapDelete("/product/{code}", ([FromRouteAttribute] string code) => {
         return Results.BadRequest(e);
     };
 });
+
+app.Run();
 
 public static class ProductRepository {
     public static List<Product> Products { get; set; } = Products = new List<Product>();
