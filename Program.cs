@@ -6,6 +6,47 @@ ProductRepository.Init(config);
 
 app.Run();
 
+app.MapGet("/product", () => {
+    var products = ProductRepository.GetAll();
+    return Results.Ok(products);
+});
+
+app.MapGet("/product/{code}", ([FromRouteAttribute] string code) => {
+    try {
+        var product = ProductRepository.GetOne(code);
+        return Results.Ok(product);
+    } catch (Exception err) {
+        return Results.BadRequest(err);
+    }
+});
+
+app.MapPost("/product", (Product product) => {
+    try {
+        var insertedProduct = ProductRepository.Add(product);
+        return Results.Created("/product" ,product);
+    } catch (Exception err) {
+        return Results.BadRequest(err);
+    }
+});
+
+app.MapPut("/product", (Product product) => {
+    try {
+        var updtProduct = ProductRepository.Update(product);
+        return Results.Ok(updtProduct);
+    } catch (Exception e) {
+        return Results.BadRequest(e);
+    }
+});
+
+app.MapDelete("/product/{code}", ([FromRouteAttribute] string code) => {
+    try {
+        var status = ProductRepository.Remove(code);
+        return Results.Ok(status);
+    } catch (Exception e) {
+        return Results.BadRequest(e);
+    };
+});
+
 public static class ProductRepository {
     public static List<Product> Products { get; set; } = Products = new List<Product>();
 
