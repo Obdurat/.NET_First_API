@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 var config = app.Configuration;
+ProductRepository.Init(config);
 
 app.Run();
 
