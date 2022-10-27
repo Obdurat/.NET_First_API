@@ -20,12 +20,12 @@ But don't you worry that i allready have a seeder running so you can still try i
 #### Product
 
 ```csharp
-    public class Product {
-    
-        public string? Code { get; set; }
+public class Product {
 
-        public string? Name { get; set; }
-   }
+  public string? Code { get; set; }
+
+  public string? Name { get; set; }
+}
 
 ```
 
