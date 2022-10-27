@@ -25,7 +25,7 @@ But don't you worry that i allready have a seeder running so you can still try i
         public string? Code { get; set; }
 
         public string? Name { get; set; }
-}
+  }
 
 ```
 
